@@ -528,7 +528,8 @@ a:hover { text-decoration-thickness: 2px; }
   border-left: 1px solid var(--ink);
   border-top: 1px solid var(--ink);
   display: grid;
-  grid-template-columns: 1.3fr 0.85fr 0.85fr 0.85fr;
+  /* the last column holds Power (Plugged / Battery), the widest values */
+  grid-template-columns: 1.3fr 0.8fr 0.8fr 0.95fr;
   grid-template-rows: 46px 46px 46px;
 }
 .tb-cell {
@@ -588,7 +589,7 @@ button.tb-cell:hover, a.tb-cell:hover { background: var(--hover); }
   :root { --spec-w: 340px; --rail-w: 120px; }
   .rail-no { font-size: 24px; }
   .tb-word { font-size: 33px; }
-  #titleblock { grid-template-columns: 1.25fr 0.9fr 0.9fr 0.9fr; }
+  #titleblock { grid-template-columns: 1.25fr 0.84fr 0.84fr 0.98fr; }
   .tb-cell { padding: 3px 8px; }
   .tb-val { font-size: 15px; }
   .tb-plug { gap: 5px; }
