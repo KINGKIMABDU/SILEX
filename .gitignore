@@ -1,0 +1,8 @@
+node_modules
+dist
+*.local
+# design process files stay local
+.impeccable
+PRODUCT.md
+DESIGN.md
+docs/AUDIT.md

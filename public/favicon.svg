@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs><clipPath id="flake"><path d="M13 51 L16 36 L24 23 L37 13 L51 11 L50 24 L44 36 L33 46 Z"/></clipPath></defs>
+  <rect width="64" height="64" rx="14" fill="#f3f4f1"/>
+  <rect x="1.25" y="1.25" width="61.5" height="61.5" rx="12.75" fill="none" stroke="#1d1f22" stroke-width="2.5"/>
+  <path d="M13 51 L16 36 L24 23 L37 13 L51 11 L50 24 L44 36 L33 46 Z" fill="#1d1f22" stroke="#1d1f22" stroke-width="2.5" stroke-linejoin="round"/>
+  <g clip-path="url(#flake)" fill="none" stroke="#6b6f76" stroke-width="1.7">
+    <circle cx="13" cy="51" r="15"/><circle cx="13" cy="51" r="24"/><circle cx="13" cy="51" r="33"/>
+  </g>
+  <circle cx="13" cy="51" r="5" fill="#cf1f2e" stroke="#f3f4f1" stroke-width="2.2"/>
+</svg>

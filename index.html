@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>SILEX · a laptop, drawn down to the atom</title>
+    <meta name="description" content="An explorable engineering drawing of a laptop. Thirteen sheets from the machine on your desk to the silicon lattice, and every one of them is a working model you operate." />
+    <meta name="author" content="Abdullah Alhariri (KINGKIMABDU)" />
+    <meta name="theme-color" content="#f3f4f1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1e1f21" media="(prefers-color-scheme: dark)" />
+    <link rel="canonical" href="https://kingkimabdu.github.io/SILEX/" />
+    <meta property="og:title" content="SILEX · a laptop, drawn down to the atom" />
+    <meta property="og:description" content="Thirteen sheets from the machine to the silicon lattice. Every level is a working model." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://kingkimabdu.github.io/SILEX/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="SILEX sheet 1: a 16-inch gaming laptop drawn as a patent figure, with reference numerals and its charger" />
+    <meta property="og:url" content="https://kingkimabdu.github.io/SILEX/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SILEX · a laptop, drawn down to the atom" />
+    <meta name="twitter:description" content="Thirteen sheets from the machine to the silicon lattice. Every level is a working model." />
+    <meta name="twitter:image" content="https://kingkimabdu.github.io/SILEX/og.png" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  </head>
+  <body>
+    <div id="sheet">
+      <div id="sheet-inner">
+        <nav id="rail" aria-label="Sheets"></nav>
+
+        <main id="stage" aria-label="Drawing">
+          <canvas id="gl" aria-hidden="true"></canvas>
+          <div id="veil"></div>
+          <svg id="overlay" aria-hidden="true"></svg>
+          <div id="labels"></div>
+          <div id="fig">
+            <div id="fig-no">FIG. 1</div>
+            <div id="fig-sub"></div>
+          </div>
+          <div id="hint"></div>
+          <div id="see"></div>
+        </main>
+
+        <aside id="spec" aria-live="polite"></aside>
+
+        <footer id="titleblock"></footer>
+      </div>
+    </div>
+    <div id="nogl" hidden>
+      <p><strong>SILEX needs WebGL.</strong> Your browser or device has it switched off. Try a current Chrome, Firefox or Safari with hardware acceleration enabled.</p>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

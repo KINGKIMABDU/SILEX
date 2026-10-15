@@ -1,0 +1,30 @@
+{
+  "name": "silex",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An explorable engineering drawing of a laptop, from the closed machine down to the silicon lattice.",
+  "author": "Abdullah Alhariri (KINGKIMABDU)",
+  "license": "MIT",
+  "homepage": "https://kingkimabdu.github.io/SILEX/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KINGKIMABDU/SILEX.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/barlow": "^5.3.0",
+    "@fontsource/barlow-semi-condensed": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
